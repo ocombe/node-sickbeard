@@ -6,7 +6,7 @@ Access SickBeard API with nodeJS
 
 # Installation & usage
 
-- Download subNode from npm
+- Download sickbeard from npm
 ```bash
 $ npm install sickbeard
 ```
