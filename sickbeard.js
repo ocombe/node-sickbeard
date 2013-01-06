@@ -21,7 +21,7 @@ module.exports = function(url, apiKey) {
 		}
 		request({uri: url + '/api/' + apiKey + '/?cmd=' + cmd + (typeof params == 'object' ? '&' + serialize(params) : '')}, function(err, response, body) {
 			if(typeof callback == 'function') {
-				callback(body);
+				callback(JSON.parse(body));
 			}
 		});
 	}
