@@ -1,6 +1,6 @@
 {
   "name": "sickbeard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Access SickBeard API with nodeJS",
   "main": "sickbeard.js",
   "repository": {
